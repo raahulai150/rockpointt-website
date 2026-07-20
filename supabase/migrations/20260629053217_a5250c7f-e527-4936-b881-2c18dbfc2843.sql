@@ -1,0 +1,1 @@
+UPDATE public.team_members SET image_url = 'https://xryzayzsjzjfdqyxbihd.supabase.co/storage/v1/object/public/team-photos/satya-prakash-2026-06-29.png', updated_at = now() WHERE id = '25f61448-4f9f-45bc-bbba-49c407622ee0';

@@ -1,0 +1,1 @@
+UPDATE public.team_members SET image_url = '/__l5e/assets-v1/8689229d-ca87-4d4c-9493-5f3b6f737c2d/satya-prakash.png', updated_at = now() WHERE id = '25f61448-4f9f-45bc-bbba-49c407622ee0';

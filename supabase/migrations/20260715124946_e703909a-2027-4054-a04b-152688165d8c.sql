@@ -1,0 +1,1 @@
+UPDATE site_content SET value = 'Reliable Skilled Manpower Supply Across Dubai,UAE' WHERE key = 'hero_heading';
