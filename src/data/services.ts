@@ -11,8 +11,6 @@ import {
 } from "lucide-react";
 import masonImg from "@/assets/service-mason.jpg";
 import shutteringImg from "@/assets/service-shuttering.jpg";
-import actechnician from "../assets/ac-technician.jpg";
-import gypsum from "../assets/gypsum.jpg";
 export type Service = {
   slug: string;
   icon: typeof BrickWall;
@@ -87,23 +85,21 @@ export const services: Service[] = [
     bg: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=800&q=80",
   },
   {
-    slug: "gypsum-carpenter",
-    icon: SquareStack,
-    title: "Gypsum Carpenter",
-    desc: "Skilled gypsum carpenters for false ceilings, partitions, and decorative gypsum works.",
-    longDesc:
-      "Skilled gypsum carpenters in the UAE for false ceilings, gypsum board partitions, bulkheads, cornices, and decorative gypsum works. Experienced in drywall framing, jointing, and finishing, our workers create clean, level surfaces ready for paint on fit-out, retail, hospitality, and residential projects across Dubai.",
-    bg: "gypsumcarpenter",
+    slug: "gypsum",
+    icon: SomeIcon,
+    title: "Gypsum Work",
+    desc: "Gypsum board ceiling & partitioning...",
+    longDesc: "...",
+    bg: "/gypsum.jpg", //
   },
   {
     slug: "ac-technician",
     icon: AirVent,
     title: "AC Technician",
-    desc: "Qualified AC technicians for installation, servicing, and repair of HVAC and cooling systems.",
-    longDesc:
-      "Qualified AC and HVAC technicians in Dubai for installation, servicing, repair, and maintenance of split, ducted, and central cooling systems. Our technicians handle ducting, gas charging, fault diagnosis, and preventive maintenance to keep HVAC systems efficient in the UAE climate, supporting construction, FM, and industrial clients year-round.",
-    bg: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80",
-  },
+    desc: "AC installation and maintenance...",
+    longDesc: "...",
+    bg: "/actechnician.jpg", //
+  }
 ];
 
 export const getServiceBySlug = (slug?: string) =>
