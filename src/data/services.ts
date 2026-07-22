@@ -11,7 +11,8 @@ import {
 } from "lucide-react";
 import masonImg from "@/assets/service-mason.jpg";
 import shutteringImg from "@/assets/service-shuttering.jpg";
-
+import actechnician from "../assets/ac-technician.jpg";
+import gypsum from "../assets/gypsum.jpg";
 export type Service = {
   slug: string;
   icon: typeof BrickWall;
@@ -92,7 +93,7 @@ export const services: Service[] = [
     desc: "Skilled gypsum carpenters for false ceilings, partitions, and decorative gypsum works.",
     longDesc:
       "Skilled gypsum carpenters in the UAE for false ceilings, gypsum board partitions, bulkheads, cornices, and decorative gypsum works. Experienced in drywall framing, jointing, and finishing, our workers create clean, level surfaces ready for paint on fit-out, retail, hospitality, and residential projects across Dubai.",
-    bg: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=800&q=80",
+    bg: "gypsumcarpenter",
   },
   {
     slug: "ac-technician",
