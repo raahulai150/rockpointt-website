@@ -8,9 +8,12 @@ import {
   PaintRoller,
   SquareStack,
   AirVent,
+  Grid2x2Check,
 } from "lucide-react";
 import masonImg from "@/assets/service-mason.jpg";
 import shutteringImg from "@/assets/service-shuttering.jpg";
+import acTechnician from "@/assets/actechnician.jpg";
+import gypsum from "@/assets/gypsum.jpg";
 export type Service = {
   slug: string;
   icon: typeof BrickWall;
@@ -86,11 +89,11 @@ export const services: Service[] = [
   },
   {
     slug: "gypsum",
-    icon: SomeIcon,
+    icon: Grid2x2Check,
     title: "Gypsum Work",
     desc: "Gypsum board ceiling & partitioning...",
     longDesc: "...",
-    bg: "/gypsum.jpg", //
+    bg: gypsum,
   },
   {
     slug: "ac-technician",
@@ -98,7 +101,7 @@ export const services: Service[] = [
     title: "AC Technician",
     desc: "AC installation and maintenance...",
     longDesc: "...",
-    bg: "/actechnician.jpg", //
+    bg: acTechnician,
   }
 ];
 
