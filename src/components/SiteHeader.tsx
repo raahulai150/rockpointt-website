@@ -33,11 +33,10 @@ const SiteHeader = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-card/95 backdrop-blur-md shadow-card py-2"
-          : "bg-transparent py-4"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+        ? "bg-card/95 backdrop-blur-md shadow-card py-2"
+        : "bg-transparent py-4"
+        }`}
     >
       <div className="container mx-auto flex items-center justify-between px-4">
         {/* Logo */}
@@ -45,9 +44,8 @@ const SiteHeader = () => {
           <img
             src={logo}
             alt="Rock Point Technical Services Co. logo"
-            className={`w-auto transition-all duration-300 ${
-              scrolled ? "h-11" : "h-14 drop-shadow-lg"
-            } ${scrolled ? "" : "bg-card/90 rounded-md px-1.5 py-1"}`}
+            className={`w-auto transition-all duration-300 ${scrolled ? "h-14" : "h-20 drop-shadow-lg"
+              }`}
           />
         </Link>
 
@@ -58,11 +56,10 @@ const SiteHeader = () => {
             <div key={link.label} className="relative group">
               <Link
                 to={link.href}
-                className={`flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors ${
-                  scrolled
-                    ? "text-foreground hover:text-electric"
-                    : "text-primary-foreground/90 hover:text-primary-foreground"
-                }`}
+                className={`flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors ${scrolled
+                  ? "text-foreground hover:text-electric"
+                  : "text-primary-foreground/90 hover:text-primary-foreground"
+                  }`}
               >
                 {link.label}
                 {link.children && <ChevronDown className="w-3 h-3" />}
