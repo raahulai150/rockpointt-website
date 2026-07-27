@@ -6,7 +6,7 @@ import { services } from "@/data/services";
 
 const navLinks = [
   { label: "Home", href: "/#home" },
-  { label: "About Us", href: "#about" },
+  { label: "About Us", href: "/#about" },
   {
     label: "Services",
     href: "/#services",
@@ -15,9 +15,9 @@ const navLinks = [
       href: `/services/${service.slug}`,
     })),
   },
-  { label: "Industries", href: "#industries" },
-  { label: "Why Choose Us", href: "#why-us" },
-  { label: "Contact Us", href: "#contact" },
+  { label: "Industries", href: "/#industries" },
+  { label: "Why Choose Us", href: "/#why-us" },
+  { label: "Contact Us", href: "/#contact" },
 ];
 
 const SiteHeader = () => {
