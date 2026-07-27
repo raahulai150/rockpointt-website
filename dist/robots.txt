@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://www.rockpointtechservices.com/
+Sitemap: https://www.rockpointtechservices.com/sitemap.xml
