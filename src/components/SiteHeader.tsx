@@ -5,7 +5,7 @@ import logo from "@/assets/rockpoint-logo.png";
 import { services } from "@/data/services";
 
 const navLinks = [
-  { label: "Home", href: "#home" },
+  { label: "Home", href: "home" },
   { label: "About Us", href: "about" },
   {
     label: "Services",
